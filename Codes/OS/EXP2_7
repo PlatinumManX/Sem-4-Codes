@@ -1,0 +1,15 @@
+function entry()
+{
+echo Enter username : 
+read name
+echo enter Password : 
+read pass
+}
+entry
+if [[( $name == "admin" && $pass == "secret" )]]
+then
+echo Access Granted
+else
+echo Access Denied
+fi
+

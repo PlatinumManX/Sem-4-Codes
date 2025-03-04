@@ -1,0 +1,8 @@
+echo Enter age of person 
+read age
+if [ $age -lt 18 ]
+then
+echo Not Eligible to vote
+else
+echo Eligible for vote
+fi

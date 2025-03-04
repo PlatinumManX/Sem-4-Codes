@@ -1,0 +1,5 @@
+for k in a*
+do
+echo file name is $k
+cat $k
+done
